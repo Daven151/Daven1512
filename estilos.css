@@ -1,0 +1,47 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: #24303c;
+}.input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}.input1 {
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-top: 20px;
+    
+}form{
+    box-shadow: 10px 10px  black;
+    padding: 20px;
+    width: 300px;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    font-family: cursive;
+}h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}#enviar{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+}textarea{
+    width: 100%;
+    resize: none;
+    max-height: 300px;
+}label{
+    color: #fff;
+    font-size: 20px;
+}
